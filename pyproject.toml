@@ -3,7 +3,8 @@ name = "logos_cdi"
 version = "0.1.0"
 description = ""
 authors = ["Elielton Kremer <elielton@integra.do>"]
-readme = "README.rst"
+readme = "README.md"
+long_description_content_type = "text/markdown"
 license = "MIT"
 
 [tool.poetry.dependencies]
