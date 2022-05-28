@@ -3,6 +3,8 @@ name = "logos_cdi"
 version = "0.1.0"
 description = ""
 authors = ["Elielton Kremer <elielton@integra.do>"]
+readme = "README.rst"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
