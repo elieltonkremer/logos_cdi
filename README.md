@@ -1,4 +1,4 @@
-![logo](./logo.svg)
+![logo](https://raw.githubusercontent.com/elieltonkremer/logos_cdi/main/logo.svg)
 
 [![Upload Python Package](https://github.com/elieltonkremer/logos_cdi/actions/workflows/python-publish.yml/badge.svg)](https://github.com/elieltonkremer/logos_cdi/actions/workflows/python-publish.yml)
 
