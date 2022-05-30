@@ -71,7 +71,6 @@ class Group(AbstractResource):
         self.resolve_resources = resolve_resources
 
     def resolve(self, container: AbstractContainer, _name: str = None):
-        print(container.resource_names())
         groups = {}
         for resource_name in container.resource_names():
             match = self.regex.match(resource_name)

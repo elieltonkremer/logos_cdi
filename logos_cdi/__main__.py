@@ -3,11 +3,13 @@ from logos_cdi.application import Application
 
 
 def main():
-    app = Application([
-        'logos_cdi',
-        'logos_cdi.manager',
-        'logos_cdi.command'
-    ])
+    app = Application(
+        modules=[
+            'logos_cdi',
+            'logos_cdi.manager',
+            'logos_cdi.command'
+        ]
+    )
 
     command = app.get('command')
     run(command.execute())

@@ -26,7 +26,6 @@ class ManagerCommand(AbstractCommand):
 
     async def execute(self):
         global app
-        print(app)
         if not app:
             module_path, app_var = self.arguments.application.split(':')
             try:

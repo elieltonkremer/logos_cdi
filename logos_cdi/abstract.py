@@ -26,3 +26,17 @@ class AbstractResource(ABC):
     @abstractmethod
     def resolve(self, container: AbstractContainer, _name: str = None):
         raise NotImplementedError('Please implement this method')
+
+
+class AbstractContextManager(ABC):
+
+    def __init__(self, context: AbstractContainer):
+        self.context = context
+
+    @abstractmethod
+    async def __aenter__(self) -> AbstractContainer:
+        raise NotImplementedError('Please implement this method')
+
+    @abstractmethod
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        raise NotImplementedError('Please implement this method')
