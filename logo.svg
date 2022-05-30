@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 499" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <pattern id="pattern-1" viewBox="0 0 100 100" patternUnits="userSpaceOnUse" preserveAspectRatio="none" width="100" height="100" bx:pinned="true">
+      <title>quadriculed</title>
+      <rect x="49.755" y="0.631" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="62.319" y="13.078" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="49.82" y="25.289" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="62.369" y="37.672" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="74.804" y="0.858" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="87.369" y="13.305" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="74.87" y="25.515" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="87.434" y="37.962" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect width="12.501" height="12.322" style="fill: rgb(110, 187, 255);" x="-0.473" y="0.341"/>
+      <rect x="12.091" y="12.788" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="-0.408" y="24.998" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="12.156" y="37.445" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="24.576" y="0.568" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="37.141" y="13.014" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="24.642" y="25.225" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="37.206" y="37.672" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="49.82" y="50.347" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="62.384" y="62.794" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="49.885" y="75.005" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="62.449" y="87.451" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="74.869" y="50.574" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="87.434" y="63.021" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="74.935" y="75.231" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="87.499" y="87.678" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect width="12.501" height="12.322" style="fill: rgb(110, 187, 255);" x="-0.408" y="50.057"/>
+      <rect x="12.156" y="62.504" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="-0.343" y="74.714" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="12.221" y="87.161" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="24.641" y="50.284" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="37.206" y="62.73" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="24.707" y="74.941" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+      <rect x="37.271" y="87.388" width="12.501" height="12.322" style="fill: rgb(110, 187, 255);"/>
+    </pattern>
+    <marker id="marker-0" viewBox="0 0 100 100" overflow="visible" orient="auto" refX="50" refY="50" bx:pinned="true">
+      <ellipse style="fill: rgb(255, 255, 255);" cx="49.378" cy="50.622" rx="48.378" ry="48.378"/>
+    </marker>
+  </defs>
+  <rect width="500" height="500" style="fill: rgb(186, 218, 85);" bx:origin="0.498 0.494"/>
+  <text style="fill: rgb(51, 51, 51); font-family: &quot;Nimbus Roman&quot;; font-size: 20.7px; white-space: pre;" transform="matrix(3.602229, 0, 0, 3.602229, -506.082275, -100.689941)"><tspan x="154.556" y="104.872">λόγος | Logos</tspan><tspan x="154.556" dy="1em">​</tspan></text>
+</svg>

@@ -1,5 +1,4 @@
-# logos_cdi
-
+<img src="./logo.svg" width="100%"/>
 
 Simple and powerful python container dependency injection module
 
