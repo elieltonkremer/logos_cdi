@@ -1,4 +1,6 @@
-<img src="./logo.svg" width="100%"/>
+![logo](./logo.svg)
+
+[![Upload Python Package](https://github.com/elieltonkremer/logos_cdi/actions/workflows/python-publish.yml/badge.svg)](https://github.com/elieltonkremer/logos_cdi/actions/workflows/python-publish.yml)
 
 Simple and powerful python container dependency injection module
 
