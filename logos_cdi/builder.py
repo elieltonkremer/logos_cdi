@@ -45,14 +45,15 @@ class ContainerBuilder:
         return self
 
     def build(self, container: AbstractContainer) -> AbstractContainer:
-        container = Container({
-            key: ResourceBuilder()
-            .from_type(value['type'])
-            .with_arguments(*value['arguments'])
-            .with_parameters(**value['parameters'])
-            .build(container)
-            for key, value in self.resources.items()
-        })
-        if not self.containers:
-            container = ContainerGroup([container, *self.containers])
+        container = ContainerGroup([
+            Container({
+                key: ResourceBuilder()
+                    .from_type(value['type'])
+                    .with_arguments(*value['arguments'])
+                    .with_parameters(**value['parameters'])
+                    .build(container)
+                for key, value in self.resources.items()
+            }),
+            *self.containers
+        ])
         return container
