@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "logos_cdi"
-version = "0.1.2.1"
+version = "0.2.1"
 description = ""
 authors = ["Elielton Kremer <elielton@integra.do>"]
 readme = "README.md"
