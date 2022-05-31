@@ -42,9 +42,10 @@ class Class(AbstractResource):
 
 class Service(AbstractResource):
 
-    def __init__(self, factory: str, parameters: dict = None):
+    def __init__(self, factory: str, parameters: dict = None, singleton: list = None):
         self.factory = factory
         self.parameters = parameters or {}
+        self.singleton = singleton
 
     def resolve(self, container: AbstractContainer, _name: str = None):
         factory = None
@@ -57,11 +58,16 @@ class Service(AbstractResource):
         else:
             factory = lambda parameters: container.get(self.factory).new(**parameters)
 
-        return factory(ResourceBuilder()
+        resource = factory(ResourceBuilder()
                        .from_type('parameter')
                        .with_arguments(self.parameters)
                        .build(container).resolve(container, _name)
-       )
+        )
+
+        if self.singleton is not None:
+            setattr(resource, '__singleton__', self.singleton)
+
+        return resource
 
 
 class Group(AbstractResource):
