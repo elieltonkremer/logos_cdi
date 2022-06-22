@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "logos_cdi"
-version = "0.2.1"
+version = "0.2.3"
 description = ""
 authors = ["Elielton Kremer <elielton@integra.do>"]
 readme = "README.md"
@@ -8,6 +8,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+property-accessor = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 

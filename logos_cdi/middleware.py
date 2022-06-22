@@ -1,12 +1,12 @@
 from logos_cdi.abstract import AbstractContextManager, AbstractContainer
+from property_accessor import PropertyAccessor
 
 
 class MiddlewareContextManager(AbstractContextManager):
 
-    def __init__(self, context: AbstractContainer, config_obj: object, config_name: str):
+    def __init__(self, context: AbstractContainer, config_obj: object, config_path: str):
         super().__init__(context)
-        self.config_name = config_name
-        self.middlewares_config = getattr(config_obj, config_name, [])
+        self.middlewares_config = PropertyAccessor(config_obj).get(config_path, [])
         self.context_managers = {}
 
     async def __aenter__(self) -> AbstractContainer:

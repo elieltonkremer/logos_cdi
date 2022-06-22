@@ -68,7 +68,7 @@ __container__.container_builder()\
         name='command_middleware_manager',
         type='service',
         factory='class::logos_cdi.middleware:MiddlewareContextManager',
-        parameters={'context': '%context%', 'config_obj': '%application%', 'config_name': 'command_middlewares'}
+        parameters={'context': '%context%', 'config_obj': '%application%', 'config_name': 'command["middleware"]'}
     )\
     .add_resource(
         name='command_delegator',
