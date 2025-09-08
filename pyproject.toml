@@ -12,3 +12,13 @@ package=true
 
 [project.scripts]
 logos = "logos_cdi.command:main"
+
+[project.optional-dependencies]
+test = [
+    "pytest"
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]

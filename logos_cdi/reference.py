@@ -18,7 +18,7 @@ class Parent(AbstractReference):
     
     def get(self, context):
         parent = context.parent()
-        return parent.get(self.resource_name) if parent.has(self.resource_name) and parent is not None else None
+        return parent.get(self.resource_name) if parent is not None and parent.has(self.resource_name) else None
 
 class Decorated(AbstractReference):
 
